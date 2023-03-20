@@ -5,10 +5,13 @@ Author: Anisa Quintyne
 Date: 2023-02-17
  */
 
+
 body {
     line-height: 1.5;
 }
-
+.footer_title {
+    width: 30%;
+}
 .container {
     max-width:1130px;
     margin: auto;
@@ -16,26 +19,51 @@ body {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
-}
 
-.footer {
-    padding: 60px 0;
+}
+.row_container {
+    margin-right: 10px;
 }
 
 .footer-col {
-    width: 30%;
-    padding: 0 17px;
+    display: flex;
+    padding: 0px 60px;
+    justify-content: space-around;
+
 }
 
-.footer-col h2 {
-    font-size: 14px;
+h2 {
+    font-size: 20px;
     margin-bottom: 30px;
     font-weight: 400;
     position: relative;
-    text-transform: capitalize;
+}
+
+
+
+.footer-col h2::before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    height: 4px;
+    width: 50px;
+    box-sizing: border-box;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 250;
+    display: block;
+}
+
+.footer-col ul li a:hover {
+    padding-left: 10px;
 }
 
 ul {
     list-style: none;
+    padding: 0px;
 }
