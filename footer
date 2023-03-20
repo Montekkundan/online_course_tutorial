@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<!--
+    Author: Anisa Quintyne
+    Date: 2023-02-17
+-->
+<html>
+    <footer>
+        <h1>HTML, CSS, and Javascript Tutorial</h1>
+            <div class="footer_content">
+                <div>
+                    <h2>Contact Us</h2>
+                    <ul>
+                        <li><a href="#">About Us</li></a>
+                        <li><a href="#">Instagram</li></a>
+                        <li><a href="#">Montek</li></a>
+                        <li><a href="#">John</li></a>
+                        <li><a href="#">Anisa</li></a>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Support</h2>
+                    <ul>
+                        <li><a href="#">Services</li></a>
+                        <li><a href="#">Tutorials</li></a>
+                        <li><a href="#">Resources</li></a>
+                        <li><a href="#">Careers</li></a>
+                        <li><a href="#">Resourcess</li></a>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+</html>
