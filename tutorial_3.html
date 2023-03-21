@@ -1,12 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="tutorial.css">
+    <link rel="stylesheet" href="main.css">
+    <title>JS tutorial</title>
 </head>
 <body>
+    <header>
+
+        <div class="navbar">
+            <div><img src="index.jpg" alt=""></div>
+
+            <div class="navbarmid">
+              <a href="index.html">Home</a>
+              <a href="tutorial_1.html">HTML</a> 
+              <a href="tutorial_2.html">CSS</a>
+              <a href="tutorial_3.html">JavaScript</a>
+              <a href="about.html">About Us</a>
+            </div>
+         <div class="navbarright">
+             <a href="about.html">About Us</a>
+
+            </div>
+        </div>
+    </header>
+<div class="tut_container">
+    <!-- dummy source video -->
+    <video src="https://www.example.com/video.mp4" controls></video>
+  
+    <!-- Add a header element with a title -->
+    <header>
+      <h1>JS Course</h1>
+    </header>
+  
+    <!--  explanation of the video -->
+    <section>
+      <p>In this course, you will learn how to create a website with HTML, CSS and JavaScript. You will learn the basics of web development, such as how to structure your content, how to style your elements and how to add interactivity to your website.</p>
+      <p>By the end of this course, you will be able to create a responsive website that works on all devices and screen sizes. You will also be able to use some of the most popular web development tools and frameworks, such as Bootstrap, jQuery and React.</p>
+      <p>Here are some of the topics that you will cover in this course:</p>
+      <ul>
+        <li>HTML elements and attributes</li>
+        <li>CSS properties and selectors</li>
+        <li>JavaScript variables and functions</li>
+        <li>Responsive web design</li>
+        <li>Web development tools and frameworks</li>
+      </ul>
+    </section>
+  
+    <!-- Add a form element with a quiz for the course/video -->
+    <form id="quiz">
+      <!-- Question 1: Multiple Choice -->
+      <label for="q1">Question 1: What does HTML stand for?</label><br>
+      <input type="radio" id="q1a" name="q1" value="A">
+      <label for="q1a">A) Hyper Text Markup Language</label><br>
+      <input type="radio" id="q1b" name="q1" value="B">
+      <label for="q1b">B) Hyper Text Manipulation Language</label><br>
+      <input type="radio" id="q1c" name="q1" value="C">
+      <label for="q1c">C) Hyper Text Machine Language</label><br>
+  
+       <!-- Question 2: Multiple Choice -->
+       <label for="q2">Question 2: What does CSS stand for?</label><br>
+       <input type="radio" id="q2a" name="q2" value="A">
+       <label for="q2a">A) Cascading Style Sheets</label><br>
+       <input type="radio" id="q2b" name="q2" value="B">
+       <label for="q2b">B) Creative Style Sheets</label><br>
+       <input type="radio" id="q2c" name="q2" value="C">
+       <label for="q2c">C) Computer Style Sheets</label><br>
+   
+        <!-- Question 3: Multiple Choice -->
+        <label for="q3">Question 3: What does JavaScript do?</label><br>
+        <input type="radio" id="q3a" name="q3" value="A">
+        <label for="q3a">A) It adds interactivity to web pages</label><br>
+        <input type="radio" id="q3b" name="q3" value="B">
+        <label for="q3b">B) It styles web pages</label><br>
+        <input type="radio" id="q3c" name="q3" value="C">
+        <label for="q3c">C) It structures web pages</label><br>
     
-</body>
-</html>
+         <!-- Question 4: True/False -->
+         <label for="q4">Question 4: Responsive web design means that the website adapts to different screen sizes and devices.</label><br>
+         <input type="radio" id="q4a" name="q4" value="A">
+         <label for="q4a">A) True</label><br>
+         <input type="radio" id="q4b" name="q4" value="B">
+         <label for="q4b">B) False</label><br>
+     
+          <!-- Question 5: Multiple Choice -->
+          <label for="q5">Question 5: Which of these is a popular web development framework?</label><br>
+          <input type="radio" id="q5a" name="q5" value="A">
+          <label for="q5a">A) Bootstrap</label><br>
+          <input type="radio" id="q5b" name="q5" value="B">
+          <label for="q5b">B) Shoelace</label><br>
+          <input type="radio" id="q5c" name="q5" value="C">
+          <label for="q5c">C) Zipper</label><br>
+      
+           <!-- Add a submit button -->
+           <input type="submit" id="submit" value="Submit Quiz">
+
+           <!-- Add a feedback element to display quiz results -->
+           <div id="feedback"></div>
+        </form>
+      </div>
+      <footer class="footer">
+  
+        <div class="footer-name">HTML, CSS, and Javascript <br> Tutorial</div> <!-- This is the name on the left side -->
+      
+        <div class="footer-column">
+          <h4>Support</h4>
+          <a href="#" class="footer-link">Services</a>
+          <a href="#" class="footer-link">Tutorials</a>
+          <a href="#" class="footer-link">Careers</a>
+          <a href="#" class="footer-link">Resourcess</a>
+
+        </div>
+      
+        <div class="footer-column">
+          <h4>Contact Us</h4>
+          <a href="#" class="footer-link">About Us</a>
+          <a href="#" class="footer-link">Anisa</a>
+          <a href="#" class="footer-link">John</a>
+          <a href="#" class="footer-link">Montek</a>
+        </div>
+      
+      </footer>
+      <script src="quiz.js"></script>
+      </body>
+      </html>
