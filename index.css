@@ -1,0 +1,22 @@
+section {
+    height: 100vh; /* This makes each section cover the full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #header {
+    background-color: lightblue; /* This sets the background color of the header section */
+    font-family: Arial, sans-serif; /* This sets the font family of the header section */
+  }
+  #about {
+    background-color: lightgreen; /* This sets the background color of the about section */
+    font-family: Georgia, serif; /* This sets the font family of the about section */
+  }
+  #projects {
+    background-color: lightpink; /* This sets the background color of the projects section */
+    font-family: Courier New, monospace; /* This sets the font family of the projects section */
+  }
+  #contact {
+    background-color: lightyellow; /* This sets the background color of the contact section */
+    font-family: Verdana, sans-serif; /* This sets the font family of the contact section */
+  }
