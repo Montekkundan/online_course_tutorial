@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>About Page</title>
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-
-        <div class="navbar">
-            <div><img src="index.jpg" alt=""></div>
-
-            <div class="navbarmid">
-              <a href="index.html">Home</a>
-              <a href="tutorial_1.html">HTML</a> 
-              <a href="tutorial_2.html">CSS</a>
-              <a href="tutorial_3.html">JavaScript</a>
-              <a href="about.html">About Us</a>
-            </div>
-         <div class="navbarright">
-             <a href="about.html">About Us</a>
-
-            </div>
+    <header class="header">
+        <div class="wrapper">
+          <nav class="header__nav">
+            <a href="/" class="header__home">
+              JAM
+            </a>
+  
+            <a href="tutorial_1.html" class="header__social">
+            HTML
+            </a>
+            <a href="tutorial_2.html" class="header__social">
+            CSS
+            </a>
+            <a href="tutorial_3.html" class="header__social">
+             JS
+            </a>
+            <a href="about.html" class="header__social">
+              About
+             </a>
+          </nav>
         </div>
-    </header>
+      </header>
     <div class="about__section">
         <div class="box">
             <span></span>
@@ -54,70 +64,29 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <table>
-            <tr>
-                <th colspan="3" align="center">
-                    <div class="card1">
-                        <div class="content1"><h2>Our Projects</h2></div></div>
-            </th>
-            <td>
-            </td>
-            <td>
-    
-            </td>
-        </tr>
-            <tr>
-                <td>
-                    <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="1">
-                        <h2 align="center"><br> <br> <br> Portfolio Projects </h2>
-                        <div class="content">
-                            <img src="tech.jpeg" alt="image" width="100%" height="100%">
-                        </div>
-                        <div class="content2"></div>
-                    </div>
-                </td>
-                <td>
-                    <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <h2 align="center"><br> <br> <br> Tech Projects </h2>
-                        <div class="content">
-                            <img src="tech.jpeg" alt="image" width="100%" height="100%">
-                        </div>
-                        <div class="content2"></div>
-                    </div>
-                </td>
-                <td>
-                    <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
-                        <h2 align="center"><br> <br> <br> Commute Projects </h2>
-                        <div class="content">
-                            <img src="tech.jpeg" alt="image" width="100%" height="100%">
-                        </div>
-                        <div class="content2"></div>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <footer class="footer">
-  
-        <div class="footer-name">HTML, CSS, and Javascript <br> Tutorial</div> <!-- This is the name on the left side -->
-      
-        <div class="footer-column">
-          <h4>Support</h4>
-          <a href="#" class="footer-link">Services</a>
-          <a href="#" class="footer-link">Tutorials</a>
-          <a href="#" class="footer-link">Careers</a>
-          <a href="#" class="footer-link">Resourcess</a>
+   
 
+    <footer class="footer bg-less-dark">
+        <div class="wrapper">
+          <nav class="header__nav">
+            <a href="/" class="header__home">
+              JAM
+            </a>
+  
+            <a href="tutorial_1.html" class="header__social">
+            HTML
+            </a>
+            <a href="tutorial_2.html" class="header__social">
+            CSS
+            </a>
+            <a href="tutorial_3.html" class="header__social">
+             JS
+            </a>
+            <a href="about.html" class="header__social">
+              About
+             </a>
+          </nav>
         </div>
-      
-        <div class="footer-column">
-          <h4>Contact Us</h4>
-          <a href="#" class="footer-link">About Us</a>
-          <a href="#" class="footer-link">Anisa</a>
-          <a href="#" class="footer-link">John</a>
-          <a href="#" class="footer-link">Montek</a>
-        </div>
-      
       </footer>
 </body>
 </html>

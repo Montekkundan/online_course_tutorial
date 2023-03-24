@@ -25,7 +25,7 @@
   /* Style the text elements */
   h1, p, ul {
     font-family: Arial, sans-serif;
-    color: black;
+    color: white;
     margin: 10px;
   }
 
@@ -46,9 +46,10 @@
 
    /* Style the form element */
    form {
-     background-color: white;
+     background: radial-gradient(circle, white, green,purple, transparent);
      border-radius: 10px;
-     padding: 20px; 
+     padding: 20px;
+     margin-bottom: 100px; 
    }
 
    /* Style the input elements */

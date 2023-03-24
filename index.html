@@ -1,72 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>CIS 145</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <nav class="header__nav">
+          <a href="/" class="header__home">
+            JAM
+          </a>
 
-        <div class="navbar">
-            <div><img src="index.jpg" alt=""></div>
-
-            <div class="navbarmid">
-              <a href="index.html">Home</a>
-              <a href="tutorial_1.html">HTML</a> 
-              <a href="tutorial_2.html">CSS</a>
-              <a href="tutorial_3.html">JavaScript</a>
-              <a href="about.html">About Us</a>
-            </div>
-         <div class="navbarright">
-             <a href="about.html">About Us</a>
-
-            </div>
-        </div>
+          <a href="tutorial_1.html" class="header__social">
+          HTML
+          </a>
+          <a href="tutorial_2.html" class="header__social">
+          CSS
+          </a>
+          <a href="tutorial_3.html" class="header__social">
+           JS
+          </a>
+          <a href="about.html" class="header__social">
+            About
+           </a>
+        </nav>
+      </div>
     </header>
-    <div>
-      <section id="header">
-        <h1>Welcome to my homepage!</h1>
-        <p>This is a brief introduction to who I am and what I do.</p>
-      </section>
-      <section id="about">
-        <h2>About me</h2>
-        <p>This is where I tell you more about myself, my background, my skills and my interests.</p>
-      </section>
-      <section id="projects">
-        <h2>My projects</h2>
-        <p>This is where I showcase some of the projects that I have worked on or contributed to.</p>
-      </section>
-      <section id="contact">
-        <h2>Contact me</h2>
-        <p>This is where I provide my contact information and invite you to get in touch with me.</p>
-      </section>
-    </div>
-    <footer class="footer">
-  
-        <div class="footer-name">HTML, CSS, and Javascript <br> Tutorial</div> <!-- This is the name on the left side -->
-      
-        <div class="footer-column">
-          <h4>Support</h4>
-          <a href="#" class="footer-link">Services</a>
-          <a href="#" class="footer-link">Tutorials</a>
-          <a href="#" class="footer-link">Careers</a>
-          <a href="#" class="footer-link">Resourcess</a>
 
+    <main id="main">
+      <section class="hero">
+        <div class="wrapper hero__wrapper bottom-border">
+          <div class="hero__content">
+            <img
+              class="hero__rings"
+              src="/assets/images/pattern-rings.svg"
+              alt=""
+              width="530"
+              height="129"
+            />
+            <img
+              class="hero__circle"
+              src="/assets/images/pattern-circle.svg"
+              alt=""
+              width="129"
+              height="129"
+            />
+            <div class="hero__text">
+              <h1 class="hero__headline header-xl">
+                Nice to<br />
+                meet you! I'm <span>Blah</span>.
+              </h1>
+              <p class="hero__description">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah.
+              </p>
+              <a href="tutorial_1.html" class="hero__contact underline">Start Learning!</a>
+            </div>
+          </div>
         </div>
-      
-        <div class="footer-column">
-          <h4>Contact Us</h4>
-          <a href="#" class="footer-link">About Us</a>
-          <a href="#" class="footer-link">Anisa</a>
-          <a href="#" class="footer-link">John</a>
-          <a href="#" class="footer-link">Montek</a>
+      </section>
+
+      <section class="skills">
+        <div class="wrapper skills__wrapper">
+
+          <div class="skills__item">
+            <h3 class="skills__title">HTML</h3>
+            <p class="skills__description">4 Years Experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">CSS</h3>
+            <p class="skills__description">4 Years Experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">JavaScript</h3>
+            <p class="skills__description">4 Years Experience</p>
+          </div>
         </div>
-      
-      </footer>
-      
-</body>
+        <img
+          class="skills__rings"
+          src="/assets/images/pattern-rings.svg"
+          alt=""
+          width="530"
+          height="129"
+        />
+      </section>
+
+      <section class="projects">
+        <div class="wrapper projects__wrapper">
+          <div class="projects__grid">
+            <h2 class="projects__headline header-xl">Projects</h2>
+            <a href="#contact" class="projects__contact underline"
+              >Contact me</a
+            >
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/index.jpg"
+                />
+                <img
+                  class="projects__image"
+                  src="/assets/images/index.jpg"
+                  alt="screenshot of design portfolio website"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">HTML COURSE</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </p>
+              <div class="projects__links">
+                <a href="tutorial_1.html" class="underline">View Project</a>
+
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/index.jpg"
+                />
+                <img
+                  class="projects__image"
+                  src="/assets/images/index.jpg"
+                  alt="screenshot of learning platform website with different courses"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">CSS Course</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </p>
+              <div class="projects__links">
+                <a href="tutorial_2.html" class="underline">View Project</a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/index.jpg"
+                />
+                <img
+                  class="projects__image"
+                  src="/assets/images/index.jpg"
+                  alt="screenshot of To Do App showing a list of active and complete tasks"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Js Course</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </p>
+              <div class="projects__links">
+                <a href="tutorial_3.html" class="underline">View Project</a>
+              </div>
+            </div>
+
+            
+
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact bg-less-dark">
+        <div class="wrapper contact__wrapper bottom-border">
+          <div class="contact__text">
+            <h2 class="contact__headline header-xl">Contact</h2>
+            <p class="contact__description">
+              I would love to hear about your project and how I could help.
+              Please fill in the form, and I'll get back to you as soon as
+              possible.
+            </p>
+          </div>
+          <form action="" class="contact__form">
+            <div class="contact__control">
+              <label for="name" class="visually-hidden">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <img
+                src="/assets/images/icon-invalid.svg"
+                alt=""
+                class="contact__invalid-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+            <div class="contact__control">
+              <label for="email" class="visually-hidden">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <img
+                src="/assets/images/icon-invalid.svg"
+                alt=""
+                class="contact__invalid-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+            <div class="contact__control">
+              <label for="message" class="visually-hidden">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="3"
+                placeholder="Message"
+                required
+              ></textarea>
+              <img
+                src="/assets/images/icon-invalid.svg"
+                alt=""
+                class="contact__invalid-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+            <div class="contact__control align-right">
+              <!-- type should be submit when js is added -->
+              <button type="button">Send Message</button> 
+            </div>
+          </form>
+        </div>
+        <img
+          class="contact__rings"
+          src="/assets/images/pattern-rings.svg"
+          alt=""
+          width="530"
+          height="129"
+        />
+      </section>
+    </main>
+
+    <footer class="footer bg-less-dark">
+      <div class="wrapper">
+        <nav class="header__nav">
+          <a href="/" class="header__home">
+            JAM
+          </a>
+
+          <a href="tutorial_1.html" class="header__social">
+          HTML
+          </a>
+          <a href="tutorial_2.html" class="header__social">
+          CSS
+          </a>
+          <a href="tutorial_3.html" class="header__social">
+           JS
+          </a>
+          <a href="about.html" class="header__social">
+            About
+           </a>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
