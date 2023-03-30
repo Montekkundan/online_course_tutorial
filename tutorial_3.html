@@ -1,3 +1,9 @@
+<!--
+  
+Author: John, Anisa and Montek
+Date: 29-03-2023 
+
+-->
 <!DOCTYPE html>
 <html  lang="en">
 <head>
@@ -57,66 +63,138 @@
     </header>
   
     <!--  explanation of the video -->
-    <section>
-      <p>In this course, you will learn how to create a website with HTML, CSS and JavaScript. You will learn the basics of web development, such as how to structure your content, how to style your elements and how to add interactivity to your website.</p>
-      <p>By the end of this course, you will be able to create a responsive website that works on all devices and screen sizes. You will also be able to use some of the most popular web development tools and frameworks, such as Bootstrap, jQuery and React.</p>
-      <p>Here are some of the topics that you will cover in this course:</p>
+    <img class="course__img" src="assets/images/js.jpeg" alt="">
+    <!--  explanation of the video -->
+    <article>
+      <p>This tutorial will teach you the basics of HTML for web development. After completing the quiz, you will gain a fundamental understanding of web design that will allow you to create websites of your own.</p>
+      <p>This is part one of a three part web development tutorial, consisting of HTML, CSS, and Javascript. This tutorial will demonstrate the basics of HTML. Afterwards, there will be a quiz assessing your knowledge on the discussed topics.</p>
+      <p>Below are the topics that will be covered in the quiz:</p>
+
       <ul>
         <li>HTML elements and attributes</li>
-        <li>CSS properties and selectors</li>
-        <li>JavaScript variables and functions</li>
+        <li>HTML headings and paragraphs</li>
+        <li>Formatting elements</li>
         <li>Responsive web design</li>
         <li>Web development tools and frameworks</li>
       </ul>
-    </section>
+      
+    </article>
+    <table border="1">
+  <tr>
+    <th>Tag</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>&lt;html&gt;</td>
+    <td>Defines the root of an HTML document</td>
+  </tr>
+  <tr>
+    <td>&lt;head&gt;</td>
+    <td>Contains metadata/information for the document</td>
+  </tr>
+  <tr>
+    <td>&lt;title&gt;</td>
+    <td>Defines the document's title that is shown in a browser's title bar or a page's tab</td>
+  </tr>
+  <tr>
+    <td>&lt;body&gt;</td>
+    <td>Represents the content of an HTML document</td>
+  </tr>
+  <tr>
+    <td>&lt;h1&gt; to &lt;h6&gt;</td>
+    <td>Defines HTML headings</td>
+  </tr>
+  <tr>
+    <td>&lt;p&gt;</td>
+    <td>Defines a paragraph</td>
+  </tr>
+  <tr>
+    <td>&lt;a&gt;</td>
+    <td>Defines a hyperlink</td>
+  </tr>
+  <tr>
+    <td>&lt;img&gt;</td>
+    <td>Defines an image</td>
+  </tr>
+  <tr>
+    <td>&lt;ul&gt;</td>
+    <td>Defines an unordered list</td>
+  </tr>
+  <tr>
+    <td>&lt;ol&gt;</td>
+    <td>Defines an ordered list</td>
+  </tr>
+
+</table>
   
     <!-- Add a form element with a quiz for the course/video -->
     <form id="quiz">
       <!-- Question 1: Multiple Choice -->
-      <label for="q1">Question 1: What does HTML stand for?</label><br>
+      <h1>Question 1</h1>
+      <label for="q1">What does HTML stand for?</label><br>
       <input type="radio" id="q1a" name="q1" value="A">
       <label for="q1a">A) Hyper Text Markup Language</label><br>
       <input type="radio" id="q1b" name="q1" value="B">
       <label for="q1b">B) Hyper Text Manipulation Language</label><br>
       <input type="radio" id="q1c" name="q1" value="C">
       <label for="q1c">C) Hyper Text Machine Language</label><br>
+      <input type="radio" id="q1d" name="q1" value="D">
+      <label for="q1d">D) Hyper Text Machine Language</label><br>
+      <input type="radio" id="q1e" name="q1" value="E">
+      <label for="q1e">E) Hyper Text Machine Language</label><br>
   
        <!-- Question 2: Multiple Choice -->
-       <label for="q2">Question 2: What does CSS stand for?</label><br>
+       <h1>Question 2</h1>
+       <label for="q2">Question 2: How are attributes displayed?</label><br>
        <input type="radio" id="q2a" name="q2" value="A">
-       <label for="q2a">A) Cascading Style Sheets</label><br>
+       <label for="q2a">A) Beside a tag</label><br>
        <input type="radio" id="q2b" name="q2" value="B">
-       <label for="q2b">B) Creative Style Sheets</label><br>
+       <label for="q2b">B) Below a tag</label><br>
        <input type="radio" id="q2c" name="q2" value="C">
-       <label for="q2c">C) Computer Style Sheets</label><br>
+       <label for="q2c">C) Before a tag</label><br>
+       <input type="radio" id="q2d" name="q2" value="D">
+       <label for="q2d">D) Hyper Text Machine Language</label><br>
+       <input type="radio" id="q2e" name="q2" value="E">
+       <label for="q2e">E) Hyper Text Machine Language</label><br>
    
         <!-- Question 3: Multiple Choice -->
-        <label for="q3">Question 3: What does JavaScript do?</label><br>
+        <h1>Question 3</h1>
+        <label for="q3">Question 3: Which of these do formatting elements do?</label><br>
         <input type="radio" id="q3a" name="q3" value="A">
-        <label for="q3a">A) It adds interactivity to web pages</label><br>
+        <label for="q3a">A) It edits the font of HTML text</label><br>
         <input type="radio" id="q3b" name="q3" value="B">
-        <label for="q3b">B) It styles web pages</label><br>
+        <label for="q3b">B) It formats the HTML document</label><br>
         <input type="radio" id="q3c" name="q3" value="C">
-        <label for="q3c">C) It structures web pages</label><br>
+        <label for="q3c">C) It creates grids</label><br>
+        <input type="radio" id="q3d" name="q3" value="D">
+        <label for="q3d">D) Hyper Text Machine Language</label><br>
+        <input type="radio" id="q3e" name="q3" value="E">
+        <label for="q3e">E) Hyper Text Machine Language</label><br>
     
          <!-- Question 4: True/False -->
-         <label for="q4">Question 4: Responsive web design means that the website adapts to different screen sizes and devices.</label><br>
+         <h1>Question 4</h1>
+         <label for="q4">Question 4: Responsive web designs are intuitive and adapt to different devices.</label><br>
          <input type="radio" id="q4a" name="q4" value="A">
          <label for="q4a">A) True</label><br>
          <input type="radio" id="q4b" name="q4" value="B">
          <label for="q4b">B) False</label><br>
      
           <!-- Question 5: Multiple Choice -->
-          <label for="q5">Question 5: Which of these is a popular web development framework?</label><br>
+          <h1>Question 5</h1>
+          <label for="q5">Question 5: Which popular web development framework do programmers use?</label><br>
           <input type="radio" id="q5a" name="q5" value="A">
           <label for="q5a">A) Bootstrap</label><br>
           <input type="radio" id="q5b" name="q5" value="B">
-          <label for="q5b">B) Shoelace</label><br>
+          <label for="q5b">B) Visual Studio Code</label><br>
           <input type="radio" id="q5c" name="q5" value="C">
-          <label for="q5c">C) Zipper</label><br>
+          <label for="q5c">C) Notepad++</label><br>
+          <input type="radio" id="q5d" name="q5" value="D">
+          <label for="q5d">D) Hyper Text Machine Language</label><br>
+          <input type="radio" id="q5e" name="q5" value="E">
+          <label for="q5e">E) Hyper Text Machine Language</label><br>
       
            <!-- Add a submit button -->
-           <input type="submit" id="submit" value="Submit Quiz">
+           <button class="submit_quiz" type="submit" id="submit">Submit Quiz</button>
 
            <!-- Add a feedback element to display quiz results -->
            <div id="feedback"></div>

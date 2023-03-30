@@ -1,3 +1,10 @@
+<!--
+  
+Author: John, Anisa and Montek
+Date: 29-03-2023 
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- This is the head section of the webpage -->
@@ -40,40 +47,40 @@
 </header>
 
     <main id="main">
-      <!-- This is the hero section of the webpage -->
-      <section class="hero">
+      <!-- This is the landing section of the webpage -->
+      <section class="landing">
         <!-- This is a wrapper div to center the content -->
-        <div class="wrapper hero__wrapper bottom-border">
-          <!-- This is the hero content div that contains the images and text -->
-          <div class="hero__content">
+        <div class="wrapper landing__wrapper bottom-border">
+          <!-- This is the landing content div that contains the images and text -->
+          <div class="landing__content">
             <!-- These are the images of the rings and circle patterns -->
             <img
-              class="hero__rings"
+              class="landing__rings"
               src="assets/images/pattern-rings.svg"
               alt=""
               width="530"
               height="129"
             />
             <img
-              class="hero__circle"
+              class="landing__circle"
               src="assets/images/pattern-circle.svg"
               alt=""
               width="129"
               height="129"
             />
             <!-- This is the div that contains the text -->
-            <div class="hero__text">
-              <!-- This is the headline of the hero section -->
-              <h1 class="hero__headline header-xl">
+            <div class="landing__text">
+              <!-- This is the headline of the landing section -->
+              <h1 class="landing__headline header-xl">
                 Nice to<br />
                 meet you! We are <span> John, </span> <span>Montek,</span> and <span>Anisa.</span>
               </h1>
-              <!-- This is the description of the hero section -->
-              <p class="hero__description">
+              <!-- This is the description of the landing section -->
+              <p class="landing__description">
                 This is our final project for CIS 145. Below, there are three tutorials for HTML, CSS, and Javascript. Let us know if you have any questions!
               </p>
               <!-- This is the link to the first tutorial page -->
-              <a href="tutorial_1.html" class="hero__contact underline">Start Learning!</a>
+              <a href="tutorial_1.html" class="landing__contact underline">Start Learning!</a>
             </div>
           </div>
         </div>
@@ -107,29 +114,29 @@
           />
         </section>
 
-      <!-- This is the projects section of the webpage -->
-      <section class="projects">
+      <!-- This is the tutorials section of the webpage -->
+      <section class="tutorials">
         <!-- This is a wrapper div to center the content -->
-        <div class="wrapper projects__wrapper">
-          <!-- This is the projects grid div that contains the headline, contact link and project items -->
-          <div class="projects__grid">
-            <!-- This is the headline of the projects section -->
-            <h2 class="projects__headline header-xl">TUTORIALS</h2>
+        <div class="wrapper tutorials__wrapper">
+          <!-- This is the tutorials grid div that contains the headline, contact link and project items -->
+          <div class="tutorials__grid">
+            <!-- This is the headline of the tutorials section -->
+            <h2 class="tutorials__headline header-xl">TUTORIALS</h2>
             <!-- This is the link to the contact section -->
-            <a href="#contact" class="projects__contact underline"
+            <a href="#contact" class="tutorials__contact underline"
               >Contact us</a
             >
             <!-- This is the first project item that contains the picture, name, tags and links -->
-            <div class="projects__item">
+            <div class="tutorials__item">
               <!-- This is the picture element that contains different sources for different media sizes -->
-              <picture class="projects__picture">
+              <picture class="tutorials__picture">
                 <source
                   media="(min-width: 62.5em)"
                   srcset="assets/images/index.jpg"
                 />
                 <!-- This is the default image for the project -->
                 <img
-                  class="projects__image"
+                  class="tutorials__image"
                   src="assets/images/index.jpg"
                   alt="screenshot of design portfolio website"
                   width-="343"
@@ -137,54 +144,54 @@
                 />
               </picture>
               <!-- This is the name of the project -->
-              <h3 class="projects__name">HTML COURSE</h3>
+              <h3 class="tutorials__name">HTML COURSE</h3>
               <!-- This is the tags of the project -->
-              <p class="projects__tags">
+              <p class="tutorials__tags">
               </p>
               <!-- This is the links of the project -->
-              <div class="projects__links">
+              <div class="tutorials__links">
                 <a href="tutorial_1.html" class="underline">View Tutorial</a>
               </div>
             </div>
-            <div class="projects__item">
-              <picture class="projects__picture">
+            <div class="tutorials__item">
+              <picture class="tutorials__picture">
                 <source
                   media="(min-width: 62.5em)"
                   srcset="assets/images/index.jpg"
                 />
                 <img
-                  class="projects__image"
+                  class="tutorials__image"
                   src="assets/images/index.jpg"
                   alt="screenshot of learning platform website with different courses"
                   width-="343"
                   height="253"
                 />
               </picture>
-              <h3 class="projects__name">CSS Course</h3>
-              <p class="projects__tags">
+              <h3 class="tutorials__name">CSS Course</h3>
+              <p class="tutorials__tags">
               </p>
-              <div class="projects__links">
+              <div class="tutorials__links">
                 <a href="tutorial_2.html" class="underline">View Tutorial</a>
               </div>
             </div>
-            <div class="projects__item">
-              <picture class="projects__picture">
+            <div class="tutorials__item">
+              <picture class="tutorials__picture">
                 <source
                   media="(min-width: 62.5em)"
                   srcset="assets/images/index.jpg"
                 />
                 <img
-                  class="projects__image"
+                  class="tutorials__image"
                   src="assets/images/index.jpg"
                   alt="screenshot of To Do App showing a list of active and complete tasks"
                   width-="343"
                   height="253"
                 />
               </picture>
-              <h3 class="projects__name">Js Course</h3>
-              <p class="projects__tags">
+              <h3 class="tutorials__name">Js Course</h3>
+              <p class="tutorials__tags">
               </p>
-              <div class="projects__links">
+              <div class="tutorials__links">
                 <a href="tutorial_3.html" class="underline">View Tutorial</a>
               </div>
             </div>
@@ -223,6 +230,16 @@
           id="email"
           name="email"
           placeholder="Email"
+          required
+        />
+      </div>
+      <div class="contact__control">
+        <label for="tel" class="visually-hidden">Phone</label>
+        <input
+          type="tel"
+          id="tel"
+          name="tel"
+          placeholder="(000)-000-0000"
           required
         />
       </div>

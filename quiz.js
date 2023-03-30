@@ -1,4 +1,8 @@
-// JavaScript code to add interactivity to the website
+
+  
+// Author: John, Anisa and Montek
+// Date: 29-03-2023 
+
 
 // Get a reference to the form element
 var form = document.getElementById("quiz");

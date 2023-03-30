@@ -1,3 +1,9 @@
+/* 
+  
+Author: John, Anisa and Montek
+Date: 29-03-2023 
+
+ */
 
 .about__section
 {
@@ -192,3 +198,46 @@ background: linear-gradient(315deg, #4dff03, #00d0ff);
     font-weight: 700;
     margin-top: 5px;
 }
+
+figure{
+    border: 1px solid black; box-shadow: 5px 5px 10px gray; padding: 10px; 
+    margin: 20px auto; width: 300px;
+}
+figure >img{
+    width: 300px;
+    height: 300px;
+}
+figcaption{
+    text-align: center;
+}
+aside{
+    border: 1px dashed blue; padding: 10px; margin: 20px; width: 300px; float: right;
+}
+.figure__aside {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1000px) {
+    .figure__aside {
+        flex-direction: column;
+    }
+    figure{
+        height: 200px;
+    }
+    figure >img{
+        width: 300px;
+        height: 200px;
+    }
+  }
+  @media (max-width: 600px) {
+    .figure__aside {
+        flex-direction: column;
+    }
+    figure{
+        height: 200px;
+    }
+    figure >img{
+        width: 300px;
+        height: 200px;
+    }
+  }

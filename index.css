@@ -1,4 +1,9 @@
+/* 
+  
+Author: John, Anisa and Montek
+Date: 29-03-2023 
 
+ */
 
 .header-xl {
   font-size: 2.5rem;
@@ -70,13 +75,13 @@
   }
 }
 
-/*  HERO */
+/*  landing */
 
-.hero__wrapper {
+.landing__wrapper {
   padding-bottom: 80px;
 }
 
-.hero__image {
+.landing__image {
   position: absolute;
   top: 0;
   left: 50%;
@@ -85,7 +90,7 @@
   height: auto;
 }
 
-.hero__rings {
+.landing__rings {
   position: absolute;
   right: 50%;
   top: 130px;
@@ -95,24 +100,24 @@
   height: auto;
 }
 
-.hero__circle {
+.landing__circle {
   position: relative;
   top: 171px;
   margin-bottom: -129px;
   translate: calc(100vw - 64px - 16px);
 }
 
-.hero__text {
+.landing__text {
   position: relative;
   text-align: center;
   margin-block-start: 70px;
 }
 
-.hero__headline {
+.landing__headline {
   margin-block-end: 24px;
 }
 
-.hero__headline > br {
+.landing__headline > br {
   display: none;
 }
 
@@ -127,30 +132,30 @@ h1 > span {
   background-size: 8px 4px;
 }
 
-.hero__description {
+.landing__description {
   margin-block-end: 24px;
 }
 
 @media (min-width: 37.5em) {
-  .hero {
+  .landing {
     position: relative;
     margin-block-start: -62px;
   }
 
-  .hero__wrapper {
+  .landing__wrapper {
     padding-bottom: 60px;
   }
 
-  .hero__content {
+  .landing__content {
     display: flex;
     align-items: center;
   }
 
-  .hero__content picture {
+  .landing__content picture {
     order: 2;
   }
 
-  .hero__image {
+  .landing__image {
     position: relative;
     width: 42vw;
     max-width: 445px;
@@ -161,14 +166,14 @@ h1 > span {
     translate: 0;
   }
 
-  .hero__rings {
+  .landing__rings {
     top: 90px;
     right: auto;
     left: 0;
     translate: -50%;
   }
 
-  .hero__circle {
+  .landing__circle {
     position: absolute;
     top: auto;
     right: 0;
@@ -177,7 +182,7 @@ h1 > span {
     z-index: 1;
   }
 
-  .hero__text {
+  .landing__text {
     /* width: 62vw; */
     margin-block-start: 90px;
     margin-right: -30px;
@@ -186,67 +191,67 @@ h1 > span {
     z-index: 1;
   }
 
-  .hero__headline {
+  .landing__headline {
     margin-block-end: 60px;
   }
 
-  .hero__headline > br {
+  .landing__headline > br {
     display: inline-block;
   }
 
-  .hero__description {
+  .landing__description {
     /* width: 70%; */
     margin-block-end: 34px;
   }
 }
 
 @media (min-width: 62.5em) {
-  .hero {
+  .landing {
     margin-block-start: 0px;
   }
 
-  .hero__wrapper {
+  .landing__wrapper {
     position: relative;
     padding-bottom: 100px;
   }
 
-  .hero__content {
+  .landing__content {
     align-items: flex-start;
   }
 
-  .hero__content picture {
+  .landing__content picture {
     margin-left: -80px;
   }
 
-  .hero__image {
+  .landing__image {
     margin-block-start: -199px;
   }
 
-  .hero__rings {
+  .landing__rings {
     top: 0px;
     translate: -50% -50%;
   }
 
-  .hero__circle {
+  .landing__circle {
     top: 322px;
     right: 445px;
   }
 
-  .hero__text {
+  .landing__text {
     margin-block-start: 0;
     margin-right: 0;
     flex: 1;
   }
 
-  .hero__headline {
+  .landing__headline {
     margin-block-end: 43px;
   }
 
-  .hero__headline > br {
+  .landing__headline > br {
     display: none;
   }
 
-  .hero__description {
+  .landing__description {
     width: 38ch;
     margin-block-end: 66px;
   }
@@ -317,13 +322,13 @@ h1 > span {
   }
 }
 
-/* PROJECTS */
+/* tutorials */
 
-.projects__wrapper {
+.tutorials__wrapper {
   padding-block: 140px;
 }
 
-.projects__grid {
+.tutorials__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
@@ -331,30 +336,30 @@ h1 > span {
   text-align: center;
 }
 
-.projects__headline {
+.tutorials__headline {
   grid-column: 1 / span 2;
   margin-block-end: 0;
 }
 
-.projects__contact {
+.tutorials__contact {
   grid-column: 1 / span 2;
 }
 
-.projects__item {
+.tutorials__item {
   grid-column: 1 / span 2;
 }
 
-.projects__picture {
+.tutorials__picture {
   display: block;
   margin-block-end: 20px;
 }
 
-.projects__image {
+.tutorials__image {
   width: 100%;
   height: auto;
 }
 
-.projects__name {
+.tutorials__name {
   font-size: 1.5rem;
   line-height: 1.3;
   font-weight: 700;
@@ -362,7 +367,7 @@ h1 > span {
   margin-block-end: 7px;
 }
 
-.projects__tags {
+.tutorials__tags {
   display: flex;
   justify-content: center;
   gap: 12px;
@@ -370,7 +375,7 @@ h1 > span {
   text-transform: uppercase;
 }
 
-.projects__links {
+.tutorials__links {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -378,39 +383,39 @@ h1 > span {
 }
 
 @media (min-width: 37.5em) {
-  .projects__grid {
+  .tutorials__grid {
     gap: 60px 24px;
     justify-items: start;
     text-align: left;
   }
 
-  .projects__contact {
+  .tutorials__contact {
     justify-self: end;
   }
 
-  .projects__item {
+  .tutorials__item {
     grid-column: span 1;
   }
 
-  .projects__headline,
-  .projects__contact {
+  .tutorials__headline,
+  .tutorials__contact {
     grid-column: span 1;
   }
 
-  .projects__contact {
+  .tutorials__contact {
     align-self: center;
   }
 
-  .projects__tags,
-  .projects__links {
+  .tutorials__tags,
+  .tutorials__links {
     display: block;
   }
 
-  .projects__tags span {
+  .tutorials__tags span {
     margin-inline-end: 18px;
   }
 
-  .projects__links a {
+  .tutorials__links a {
     margin-inline-end: 30px;
   }
 
@@ -420,23 +425,23 @@ h1 > span {
 }
 
 @media (min-width: 62.5em) {
-  .projects__grid {
+  .tutorials__grid {
     gap: 70px 30px;
   }
 
-  .projects__item {
+  .tutorials__item {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
   }
 
-  .projects__picture {
+  .tutorials__picture {
     position: relative;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
 
-  .projects__picture::after {
+  .tutorials__picture::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -447,27 +452,27 @@ h1 > span {
     transition: opacity 150ms ease-in-out;
   }
 
-  .projects__item:hover .projects__picture::after {
+  .tutorials__item:hover .tutorials__picture::after {
     opacity: 0.5;
   }
 
-  .projects__item:hover .projects__links {
+  .tutorials__item:hover .tutorials__links {
     opacity: 1;
   }
-  .projects__item:focus-within .projects__links {
+  .tutorials__item:focus-within .tutorials__links {
     opacity: 1;
   }
 
-  .projects__item:focus-within .projects__picture::after {
+  .tutorials__item:focus-within .tutorials__picture::after {
     opacity: 0.5;
   }
 
-  .projects__image {
+  .tutorials__image {
     width: 100%;
     height: auto;
   }
 
-  .projects__links {
+  .tutorials__links {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     justify-self: center;
@@ -477,11 +482,11 @@ h1 > span {
     transition: opacity 400ms ease-in-out;
   }
 
-  .projects__links:hover ~ .projects__picture::after {
+  .tutorials__links:hover ~ .tutorials__picture::after {
     opacity: 0.5;
   }
 
-  .projects__tags {
+  .tutorials__tags {
     margin-block-end: 0;
   }
 }

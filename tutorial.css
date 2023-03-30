@@ -1,4 +1,11 @@
-/* CSS code to style the website */
+/* 
+  
+Author: John, Anisa and Montek
+Date: 29-03-2023 
+
+ */
+
+
 * {
     box-sizing: border-box;
   }
@@ -68,12 +75,13 @@
      margin-right: 10px; 
    }
 
-   input[type="submit"] {
-     background-color: green; 
+   .submit_quiz {
+    background-color: green; 
      color:white; 
      border:none; 
      padding :10px; 
      cursor:pointer; 
+     background-image: none;
    }
    .retry {
     background-color: red; 
@@ -113,3 +121,12 @@
   font-size :24px ;   
   text-align:center ;   
   } 
+
+.course__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
