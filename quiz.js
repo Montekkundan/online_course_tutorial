@@ -23,7 +23,7 @@ submit.addEventListener("click", function(event) {
   var score = 0;
 
   // Declare an array of correct answers
-  var answers = ["A", "B", "A", "B", "C"];
+  var answers = ["A", "B", "A", "A", "C"];
 
   // Loop through each question in the form
   for (var i = 0; i < answers.length; i++) {

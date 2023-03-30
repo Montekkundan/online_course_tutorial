@@ -66,114 +66,85 @@ Date: 29-03-2023
     <img class="course__img" src="assets/images/js.jpeg" alt="">
     <!--  explanation of the video -->
     <article>
-      <p>This tutorial will teach you the basics of HTML for web development. After completing the quiz, you will gain a fundamental understanding of web design that will allow you to create websites of your own.</p>
-      <p>This is part one of a three part web development tutorial, consisting of HTML, CSS, and Javascript. This tutorial will demonstrate the basics of HTML. Afterwards, there will be a quiz assessing your knowledge on the discussed topics.</p>
-      <p>Below are the topics that will be covered in the quiz:</p>
+      <p>
+        JavaScript is a programming language that runs in web browsers. It can create dynamic and interactive web pages by manipulating the HTML and CSS elements on the page. JavaScript can also communicate with web servers and databases using various technologies such as AJAX and WebSockets.
+        
+        JavaScript is an object-based language, which means that everything in JavaScript is an object or can be treated as one. Objects have properties (attributes) and methods (functions) that define their behavior and functionality. JavaScript also supports inheritance and polymorphism through prototypes, which are special objects that act as templates for creating other objects.
+      </p>
+        <p>
+        JavaScript is a scripting language, which means that it does not need to be compiled before running. Instead, it is interpreted by the browser at runtime. This makes JavaScript easy to use and debug, but also prone to errors and security issues. JavaScript has a strict syntax that follows certain rules and conventions, such as using semicolons to end statements and curly braces to enclose blocks of code.
+      </p>
+      <p>
+        JavaScript is a dynamic language, which means that it can change its behavior and structure at runtime. For example, you can add or delete properties and methods from objects, or change the data type of variables. This makes JavaScript flexible and powerful, but also difficult to maintain and optimize.
+        
+        JavaScript is an event-driven language, which means that it responds to events that occur on the web page or in the browser. Events are actions or occurrences that trigger a function to execute. For example, clicking a button, loading a page, or pressing a key are all events. JavaScript can register event listeners that wait for a specific event to happen and then run a callback function.
+        
+        JavaScript is a functional language, which means that it treats functions as first-class objects. Functions are objects that can be assigned to variables, passed as arguments, or returned from other functions. Functions can also be nested inside other functions, creating closures that have access to the outer scope variables. Functions can also be anonymous, meaning that they do not have a name.
+      </p>
+        <p>
+        JavaScript is an asynchronous language, which means that it can perform multiple tasks at the same time without blocking the main thread of execution. JavaScript uses callbacks, promises, async/await, generators, and other techniques to handle asynchronous operations such as fetching data from a server, reading a file, or setting a timer.
+        
+        JavaScript is an evolving language, which means that it is constantly being updated and improved by various standards bodies and communities. The most widely used version of JavaScript is ECMAScript 6 (ES6), which was released in 2015 and introduced many new features and syntax improvements. However, not all browsers support ES6 fully, so you may need to use transpilers or polyfills to make your code compatible with older browsers.
+        </p>
 
+      <h2>Benefits of using JavaScript</h2>
       <ul>
-        <li>HTML elements and attributes</li>
-        <li>HTML headings and paragraphs</li>
-        <li>Formatting elements</li>
-        <li>Responsive web design</li>
-        <li>Web development tools and frameworks</li>
+        <li>JavaScript is fast and efficient. It runs on the client-side, which means it does not need to wait for server responses or consume server resources. It also benefits from JIT (just in time) compilation, which optimizes the code execution speed.</li>
+        <li>JavaScript is simple and popular. It has a relatively easy syntax that is inspired by Java and other languages. It is widely used on the web, both on the frontend and the backend, thanks to Node.js. It has a large and active community of developers and many online resources to learn from</li>
       </ul>
       
     </article>
-    <table border="1">
-  <tr>
-    <th>Tag</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>&lt;html&gt;</td>
-    <td>Defines the root of an HTML document</td>
-  </tr>
-  <tr>
-    <td>&lt;head&gt;</td>
-    <td>Contains metadata/information for the document</td>
-  </tr>
-  <tr>
-    <td>&lt;title&gt;</td>
-    <td>Defines the document's title that is shown in a browser's title bar or a page's tab</td>
-  </tr>
-  <tr>
-    <td>&lt;body&gt;</td>
-    <td>Represents the content of an HTML document</td>
-  </tr>
-  <tr>
-    <td>&lt;h1&gt; to &lt;h6&gt;</td>
-    <td>Defines HTML headings</td>
-  </tr>
-  <tr>
-    <td>&lt;p&gt;</td>
-    <td>Defines a paragraph</td>
-  </tr>
-  <tr>
-    <td>&lt;a&gt;</td>
-    <td>Defines a hyperlink</td>
-  </tr>
-  <tr>
-    <td>&lt;img&gt;</td>
-    <td>Defines an image</td>
-  </tr>
-  <tr>
-    <td>&lt;ul&gt;</td>
-    <td>Defines an unordered list</td>
-  </tr>
-  <tr>
-    <td>&lt;ol&gt;</td>
-    <td>Defines an ordered list</td>
-  </tr>
+    <table border=“1”> <tr> <th>Keyword</th> <th>Description</th> </tr> <tr> <td>var</td> <td>Declares a variable</td> </tr> <tr> <td>let</td> <td>Declares a block-scoped variable</td> </tr> <tr> <td>const</td> <td>Declares a block-scoped constant</td> </tr> <tr> <td>function</td> <td>Defines a function</td> </tr> <tr> <td>if…else</td> <td>Makes a conditional statement</td> </tr> <tr> <td>for</td> <td>Creates a loop that runs a block of code a number of times</td> </tr> <tr> <td>while</td> <td>Creates a loop that runs a block of code while a condition is true</td> </tr> <tr> <td>do…while</td> <td>Creates a loop that runs a block of code once, and then repeats the loop while a condition is true</td> </tr> <tr> <td>switch</td> <td>Makes a multiple-choice statement</td> </tr> <tr> <td>break</td> <td>Terminates the current loop or switch statement</td> </tr>
 
-</table>
+    </table>
   
     <!-- Add a form element with a quiz for the course/video -->
     <form id="quiz">
       <!-- Question 1: Multiple Choice -->
       <h1>Question 1</h1>
-      <label for="q1">What does HTML stand for?</label><br>
+      <label for="q1">What is the correct way to write a JavaScript array? </label><br>
       <input type="radio" id="q1a" name="q1" value="A">
-      <label for="q1a">A) Hyper Text Markup Language</label><br>
+      <label for="q1a">A) var colors = [“red”, “green”, “blue”]</label><br>
       <input type="radio" id="q1b" name="q1" value="B">
-      <label for="q1b">B) Hyper Text Manipulation Language</label><br>
+      <label for="q1b">B) var colors = 1 = (“red”), 2 = (“green”), 3 = (“blue”)</label><br>
       <input type="radio" id="q1c" name="q1" value="C">
-      <label for="q1c">C) Hyper Text Machine Language</label><br>
+      <label for="q1c">C) var colors = “red”, “green”, “blue” </label><br>
       <input type="radio" id="q1d" name="q1" value="D">
-      <label for="q1d">D) Hyper Text Machine Language</label><br>
+      <label for="q1d">D) var colors = (1:“red”, 2:“green”, 3:“blue”)</label><br>
       <input type="radio" id="q1e" name="q1" value="E">
-      <label for="q1e">E) Hyper Text Machine Language</label><br>
+      <label for="q1e">E) None of the above</label><br>
   
        <!-- Question 2: Multiple Choice -->
        <h1>Question 2</h1>
-       <label for="q2">Question 2: How are attributes displayed?</label><br>
+       <label for="q2">How do you write “Hello World” in an alert box? </label><br>
        <input type="radio" id="q2a" name="q2" value="A">
-       <label for="q2a">A) Beside a tag</label><br>
+       <label for="q2a">A) msg(“Hello World”);</label><br>
        <input type="radio" id="q2b" name="q2" value="B">
-       <label for="q2b">B) Below a tag</label><br>
+       <label for="q2b">B) alert(“Hello World”);</label><br>
        <input type="radio" id="q2c" name="q2" value="C">
-       <label for="q2c">C) Before a tag</label><br>
+       <label for="q2c">C) alertBox(“Hello World”);</label><br>
        <input type="radio" id="q2d" name="q2" value="D">
-       <label for="q2d">D) Hyper Text Machine Language</label><br>
+       <label for="q2d">D) msgBox(“Hello World”);</label><br>
        <input type="radio" id="q2e" name="q2" value="E">
-       <label for="q2e">E) Hyper Text Machine Language</label><br>
+       <label for="q2e">E) None of the above</label><br>
    
         <!-- Question 3: Multiple Choice -->
         <h1>Question 3</h1>
-        <label for="q3">Question 3: Which of these do formatting elements do?</label><br>
+        <label for="q3">How do you create a function in JavaScript?</label><br>
         <input type="radio" id="q3a" name="q3" value="A">
-        <label for="q3a">A) It edits the font of HTML text</label><br>
+        <label for="q3a">A) function myFunction()</label><br>
         <input type="radio" id="q3b" name="q3" value="B">
-        <label for="q3b">B) It formats the HTML document</label><br>
+        <label for="q3b">B) function = myFunction()</label><br>
         <input type="radio" id="q3c" name="q3" value="C">
-        <label for="q3c">C) It creates grids</label><br>
+        <label for="q3c">C)function:myFunction()</label><br>
         <input type="radio" id="q3d" name="q3" value="D">
-        <label for="q3d">D) Hyper Text Machine Language</label><br>
+        <label for="q3d">D) create myFunction()</label><br>
         <input type="radio" id="q3e" name="q3" value="E">
-        <label for="q3e">E) Hyper Text Machine Language</label><br>
+        <label for="q3e">E) None of the above</label><br>
     
          <!-- Question 4: True/False -->
          <h1>Question 4</h1>
-         <label for="q4">Question 4: Responsive web designs are intuitive and adapt to different devices.</label><br>
+         <label for="q4">Is JavaScript a case-sensitive language?</label><br>
          <input type="radio" id="q4a" name="q4" value="A">
          <label for="q4a">A) True</label><br>
          <input type="radio" id="q4b" name="q4" value="B">
@@ -181,17 +152,17 @@ Date: 29-03-2023
      
           <!-- Question 5: Multiple Choice -->
           <h1>Question 5</h1>
-          <label for="q5">Question 5: Which popular web development framework do programmers use?</label><br>
+          <label for="q5">How do you call a function named “myFunction”?</label><br>
           <input type="radio" id="q5a" name="q5" value="A">
-          <label for="q5a">A) Bootstrap</label><br>
+          <label for="q5a">A) call myFunction()</label><br>
           <input type="radio" id="q5b" name="q5" value="B">
-          <label for="q5b">B) Visual Studio Code</label><br>
+          <label for="q5b">B) run myFunction()</label><br>
           <input type="radio" id="q5c" name="q5" value="C">
-          <label for="q5c">C) Notepad++</label><br>
+          <label for="q5c">C)  myFunction()</label><br>
           <input type="radio" id="q5d" name="q5" value="D">
-          <label for="q5d">D) Hyper Text Machine Language</label><br>
+          <label for="q5d">D)execute myFunction() </label><br>
           <input type="radio" id="q5e" name="q5" value="E">
-          <label for="q5e">E) Hyper Text Machine Language</label><br>
+          <label for="q5e">E) None of the above</label><br>
       
            <!-- Add a submit button -->
            <button class="submit_quiz" type="submit" id="submit">Submit Quiz</button>
