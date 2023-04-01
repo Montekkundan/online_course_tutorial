@@ -58,13 +58,7 @@ Date: 29-03-2023
     filter: blur(10px);
     transition: 0.5s;
 }
-.about__section .box:hover:before,
-.about__section .box:hover:after
-{
-    transform: skewX(0deg);
-    left: 20px;
-    width: calc(100% - 90px);
-}
+
 .about__section .box:nth-child(1):before,
 .about__section .box:nth-child(1):after
 {
@@ -78,7 +72,7 @@ background: linear-gradient(315deg, #03a9f4, #ff0058);
 .about__section .box:nth-child(3):before,
 .about__section .box:nth-child(3):after
 {
-background: linear-gradient(315deg, #4dff03, #00d0ff);
+background: linear-gradient(315deg, #44a11b, #00d0ff);
 }
 .about__section .box span
 {
@@ -109,14 +103,7 @@ background: linear-gradient(315deg, #4dff03, #00d0ff);
     animation: animate 2s ease-in-out infinite;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
-.about__section .box:hover span::before
-{
-    top: -50px;
-    left: 50px;
-    width: 100px;
-    height: 100px;
-    opacity: 1;
-}
+
 
 .about__section .box span::after
 {
@@ -136,25 +123,7 @@ background: linear-gradient(315deg, #4dff03, #00d0ff);
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     animation-delay: -1s;
 }
-.about__section .box:hover span::after
-{
-    bottom: -50px;
-    right: 50px;
-    width: 100px;
-    height: 100px;
-    opacity: 1;
-}
-@keyframes animate
-{
-0%,100%
-{
-    transform: translateY(10px);
-}
-50%
-{
-    transform: translateY(-10px);
-}
-}
+
 .about__section .box .content
 {
     position: relative;
@@ -169,11 +138,7 @@ background: linear-gradient(315deg, #4dff03, #00d0ff);
     transition: 0.5s;
     color: #fff;
 }
-.about__section .box:hover .content
-{
-    left: -25px;
-    padding: 60px 40px;
-}
+
 .about__section .box .content h2
 {
     font-size: 2em;
